@@ -1,0 +1,144 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.main-nav a:hover {
+  color: #2196f3;
+}
+
+.nav-items {
+  display: flex;
+}
+.nav-items a {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.nav-contacts {
+  display: flex;
+}
+
+.nav-contacts a {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.hero button {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-style: none;
+  border-radius: 4px;
+}
+
+.quality ul {
+  display: flex;
+  font-weight: 700, bold;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.quality p {
+  color: #757575;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.section-title {
+  font-weight: 700, bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.about ul {
+  display: flex;
+}
+
+.team ul {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  display: flex;
+}
+
+.team p {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+footer {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-contacts a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.portfolio-grups {
+  display: flex;
+}
+.portfolio-grups a {
+  color: #212121;
+  display: inline-block;
+  background: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.portfolio-grups a:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.portfolio-items {
+  font-weight: 700, bold;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.portfolio-items p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
